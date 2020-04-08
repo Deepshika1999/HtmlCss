@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign in page using HTML and CSS</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="form-box">
+<div class="heading">
+<img src="C:\Users\Deepu\Downloads\logo.jpg" alt="">
+<h1 >Sign in</h1>
+<div class="close">+</div>
+</div>
+<form>
+<div class="input-container">
+<input class="input-field" type="text" placeholder="mail@example.com" name="email">
+<i class="fa fa-envelope icon"></i>
+</div>
+<div class="input-container">
+<input class="input-field" type="text" placeholder="password" name="Password">
+<i class="fa fa-lock icon"></i>
+</div>
+<button type="submit" class="btn">SIGN IN</button>
+<span class="psw">Forgot your password?</span>
+<span class="uname">Register!</span>
+<hr>
+<p class="separate">OR</p>
+<button type="submit" class="fb"><a href="#">
+          <i class="fa fa-facebook fa-fw"></i> 
+        </a></button>
+<button type="submit" class="google"><a href="#">
+          <i class="fa fa-google fa-fw"></i> 
+        </a></button>
+<button type="submit" class="epam-login"> <  EPAM LOGIN  > </button>
+  </div>
+</body>
+</html>
+
+
+<style type="text/css">
+
+body{
+background-color: black;
+}
+
+.form-box{
+width: 350px;
+height: 480px;
+position: relative;
+background: #fff;
+margin: 6% auto;
+border-radius: 5px;
+}
+
+.heading h1{
+border: 5px solid #39c2d7;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+background: #39c2d7;
+font-size: 18px;
+font-family: 'Calibri';
+color: white;
+text-align: center;
+margin-bottom: 25px;
+position: relative;
+margin-top: -30px;
+
+}
+
+.close{
+position: absolute;
+top: 0;
+right: 14px;
+font-size: 20px;
+margin-top: 4px;
+color: white;
+font-weight: bold;
+transform: rotate(45deg);
+}
+
+.input-field{
+width: 320px;
+margin-left: 16px;
+border: 1px solid #aaa;
+outline: none;
+padding: 8px;
+box-sizing: border-box;
+margin-top: 10px;
+}
+
+.input-field:focus{
+color: black;
+}
+
+.input-container{
+color: grey;
+position: relative;
+}
+
+.input-container i{
+right: 25px;
+bottom: 8px;
+position: absolute;
+padding: 1px 2px;
+}
+
+.btn{
+background-color: dodgerblue;
+border: none;
+color: white;
+font-weight: bold;
+font-family: 'Arial';
+border-radius: 5px;
+margin-left: 16px;
+margin-top: 30px;
+width: 320px;
+padding: 8px 10px;
+}
+
+span.psw {
+  float: left;
+  padding-top: 16px;
+ margin-left: 16px;
+font-weight: bold;
+color: grey;
+font-family: 'Candara';
+}
+
+span.uname{
+  float: right;
+  padding-top: 16px;
+margin-right: 16px;
+font-weight: bold;
+color: grey;
+font-family: 'Candara';
+}
+
+hr{
+margin-top: 70px;
+width: 90%;
+}
+
+.separate{
+background: #fff;
+width: 30px;
+margin: -19px auto 10px;
+padding-left: 10px;
+color: grey;
+}
+
+.fb{
+background-color: royalblue;
+border: none;
+border-radius: 5px;
+margin-left: 16px;
+margin-top: 18px;
+width: 320px;
+padding: 8px 10px;
+}
+
+.fb i{
+color: white;
+}
+
+.google{
+background-color: tomato;
+border: none;
+border-radius: 5px;
+margin-left: 16px;
+margin-top: 8px;
+width: 320px;
+padding: 8px 10px;
+}
+
+.google i{
+color: white;
+}
+
+.epam-login{
+background-color: gold;
+border: none;
+font-weight: bold;
+font-family: 'Arial';
+color: white;
+border-radius: 5px;
+margin-left: 16px;
+margin-top: 30px;
+width: 320px;
+padding: 8px 10px;
+}
+
+img{
+margin-left: 2px;
+ position: absolute;
+  left: 0px;
+  top: 0px;
+width: 30px;
+height: 30px;
+margin-top: 1px;
+z-index: 1;
+}
+
+</style>
